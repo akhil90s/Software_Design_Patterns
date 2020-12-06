@@ -17,7 +17,5 @@ public class Player {
 		System.out.println("Player : " + this.type);
 		behaviour.actionCommand();
 	}
-	
-	
 
 }

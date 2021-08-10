@@ -1,6 +1,6 @@
 package DECORATOR_DESIGN_PATTERN;
 
-public class User {
+public class Main {
 
 	public static void main(String[] args) {
 		

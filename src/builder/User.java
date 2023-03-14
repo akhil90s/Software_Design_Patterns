@@ -1,14 +1,14 @@
-package BUILDER_PATTERN;
+package builder;
 
 public class User {
 
-	// Required
-	private String firstName;
-	private String lastName;
-	// Optional
-	private int age;
-	private String phone;
-	private String address;
+	// Required Fields
+	private final String firstName;
+	private final String lastName;
+	// Optional Fields
+	private final int age;
+	private final String phone;
+	private final String address;
 
 	private User(UserBuilder builder) {
 		this.firstName = builder.firstName;
@@ -46,8 +46,8 @@ public class User {
 
 	public static class UserBuilder {
 
-		private String firstName;
-		private String lastName;
+		private final String firstName;
+		private final String lastName;
 		private int age;
 		private String phone;
 		private String address;
@@ -72,11 +72,9 @@ public class User {
 			return this;
 		}
 
-		// Return the finally constructed User object
 		public User build() {
 			User user = new User(this);
 			return user;
-
 		}
 	}
 }

@@ -1,4 +1,4 @@
-package STRATEGY_DESIGN_PATTERN_1;
+package strategy.example_two;
 
 public class OperationDivide implements Strategy {
 

@@ -1,11 +1,11 @@
-package STRATEGY_DESIGN_PATTERN;
+package strategy.example_three;
 
-public class UserPlayer {
+public class Demo {
 
 	public static void main(String[] args) {
 		
-		Player terrorist = new Player("Terrorist");
-		Player counterTerrorist = new Player("Counter Terrorist");
+		PlayerContext terrorist = new PlayerContext("Terrorist");
+		PlayerContext counterTerrorist = new PlayerContext("Counter Terrorist");
 		
 		System.out.println("Before the bomb is planted");
 		terrorist.setBehaviour(new AggresiveStrategy());

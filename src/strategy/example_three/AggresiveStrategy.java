@@ -1,4 +1,4 @@
-package STRATEGY_DESIGN_PATTERN;
+package strategy.example_three;
 
 public class AggresiveStrategy implements IStrategy {
 

@@ -1,11 +1,11 @@
-package STRATEGY_DESIGN_PATTERN;
+package strategy.example_three;
 
-public class Player {
+public class PlayerContext {
 	
 	IStrategy behaviour;
 	String type;
 	
-	public Player(String type) {
+	public PlayerContext(String type) {
 		this.type = type;
 	}
 

@@ -1,7 +1,7 @@
-package PROXY_DESIGN_PATTERN;
+package proxy;
 
 public interface WebPage {
-	
+
 	public void renderPage(String url) throws Exception;
 
 }

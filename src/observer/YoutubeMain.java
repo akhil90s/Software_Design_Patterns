@@ -1,9 +1,8 @@
-package OBSERVER_DESIGN_PATTERN;
+package observer;
 
 public class YoutubeMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		Subject myChannel = new Channel();
 		

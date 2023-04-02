@@ -1,4 +1,4 @@
-package OBSERVER_DESIGN_PATTERN;
+package observer;
 
 public class Subscriber implements Observer {
 
